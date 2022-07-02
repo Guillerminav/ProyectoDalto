@@ -127,6 +127,7 @@ span {
 .mes {
     color: #FFD369;
     padding-top: 10rem;
+    margin-bottom: 5rem;
 }
 
 .mes a {
@@ -174,15 +175,17 @@ h4 {
 footer {
     background-color: #222831;
     margin: auto;
-    padding: 30px 50px;
+    padding: 2rem 6rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .redes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    font-size: 2rem;
 }
 
 footer a {
@@ -193,6 +196,11 @@ footer p {
     display: flex;
     justify-content: center;
     color: #FFD369;
+}
+
+footer p i {
+    margin: 0.3rem 0.3rem 0 0.3rem;
+
 }
 
 
