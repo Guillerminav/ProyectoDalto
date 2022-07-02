@@ -137,6 +137,7 @@ span {
 .mes a {
     color: #FFD369;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .mes article{
@@ -169,8 +170,6 @@ h4 {
     border-left: 2px solid #FFD369;
     padding-left: 30px;
 }
-
-
 
 
 
