@@ -1,0 +1,130 @@
+body {
+    background-color: #222831;
+    color: #222831;
+}
+
+span {
+    font-weight: 300;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    margin: 14em auto;
+    width: 100em;
+    background-color: #FFD369;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.login_info {
+    align-self: center;
+    margin: auto;
+    justify-items: center;
+    background-color: #FFD369;
+    color: #222831;
+    text-align: center;
+    padding: 25px 200px;
+    border-right: #222831 solid 1px;
+}
+
+
+.proyecto {
+    align-self: center;
+    font-size: 22px;
+    margin: auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.3rem;
+}
+
+form input {
+    margin: auto;
+    padding: 10px;
+    border: solid 1px #222831;
+    background-color: #FFD369;
+    font-family: 'Poppins';
+    border-radius: 2px;
+}
+
+form input:focus {
+    background-color: #222831;
+    outline: none;
+    color: #FFD369;
+}
+
+form input::placeholder {
+    color: #222831;
+}
+
+form button {
+    margin: auto;
+    padding: 8px;
+    width: 100%;
+    background-color: #FFD369;
+    border: solid 1px #222831;
+    font-weight: 600;
+    font-family: 'Poppins';
+    transition: all 0.2s ease;
+    border-radius: 2px;
+}
+
+form button:hover {
+    color: #FFD369;
+    background-color: #222831;
+}
+
+.login_info a {
+    text-decoration: none;
+    color: #222831;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 5rem auto;
+        width: 80%;
+        background-color: #FFD369;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+
+    .login_info {
+        align-self: center;
+        margin: auto;
+        justify-items: center;
+        background-color: #FFD369;
+        color: #222831;
+        text-align: center;
+        padding: 16px 0;
+        border-bottom: #222831 solid 1px;
+        border-right: none;
+        
+    }
+
+    .proyecto {
+        align-self: center;
+        font-size: 8px;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    form input {
+        margin: 4px auto;
+        padding: 8px;
+        border: solid 1px #222831;
+        background-color: #FFD369;
+        font-family: 'Poppins';
+        border-radius: 2px;
+    }
+}
