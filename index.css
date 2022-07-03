@@ -70,9 +70,15 @@ span {
 .presentacion {
     color: #FFD369;
     height: 100vh;
-    padding-top: 40vh;
+    padding-top: 30vh;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 2.5rem;
+}
+
+.presentacion p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0.5rem auto;
 }
 
 .presentacion h1 {
@@ -249,10 +255,13 @@ footer p i {
     
     .presentacion h1 {
         font-weight: 600;
+        line-height: 2rem;
     }
 
     .presentacion p {
-        font-size: 1rem;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        margin: 0.5rem auto;
     }
 
 
