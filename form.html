@@ -10,6 +10,7 @@
     <meta name="robots" content="index"><!--le dice a la pagina si tiene que ser indexada o no-->
     <meta name="robots" content="follow"><!--SEO-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="form.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form.css">
     <link rel="icon" href=""><!--agrega una imagen en la pestaña-->
@@ -18,13 +19,14 @@
 <body>
     <div class="wrapper">
         <div class="login_info">
-            <h2>LOG IN</h2>
+            <h2 onclick="changeText(this)">LOG IN</h2>
             <p>Ingrese a su cuenta</p>
-                <form method="post">
-                    <input type="name" name="nombre" placeholder="Nombre" required>
-                    <input type="email" name="" placeholder="Email" required>
-                    <input type="password" placeholder="Contraseña" required>
-                    <button>Enviar</button>
+                <form method="post" onsubmit={myForm()}>
+                    <input type="name" id="name" name="nombre" placeholder="Nombre" required>
+                    <input type="email" id="email" name="" placeholder="Email" required>
+                    <input type="password" id="password" placeholder="Contraseña" required>
+                    <button onclick={cambiarBoton()} id="boton-enviar">Enviar</button>
+                    <input type="submit" class="submit" value="Enviar">
                     <a href="">No tengo cuenta</a>
                 </form>
         </div>

@@ -30,8 +30,19 @@ h1 {
 }
 
 .tres {
-    left: 95%;
-    top: 40%;
+    left: 93%;
+    top: 42%;
+}
+
+.seis {
+    left: 48%;
+    top: 83%;
+    
+}
+
+.nueve {
+    left: 5%;
+    top: 42%;
 }
 
 .centro {
@@ -51,4 +62,15 @@ h1 {
     position: absolute;
     top: 35%;
     left: 10%;
+}
+
+.aguja2 {
+    background-color: black;
+    width: 200px;
+    height: 10px;
+    border-radius: 20%;
+    position: absolute;
+    top: 200%;
+    left: -15%;
+    transform: rotate(50deg);
 }
