@@ -62,7 +62,7 @@ form input::placeholder {
     color: #222831;
 }
 
-.input.error{
+.input .error{
     border: 4px solid red;;
 }
 

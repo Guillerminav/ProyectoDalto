@@ -5,7 +5,7 @@ function myForm()  {
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
 
-    if(!name || !email || !password) {
+    if(name == '' || email == ''|| password == '') {
         name.classList.add("error");
         email.classList.add("error");
         password.classList.add("error");
