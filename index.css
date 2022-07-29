@@ -77,10 +77,22 @@ ul {
 
 .presentacion {
     color: #FFD369;
-    height: 100vh;
+    height: 90vh;
     padding-top: 30vh;
     font-weight: 300;
     font-size: 2.5rem;
+}
+
+.primera-parte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagen-3d img {
+    width: 120px;
+    margin: 0;
 }
 
 .presentacion p {
@@ -91,11 +103,12 @@ ul {
 
 .presentacion h1 {
     font-weight: 600;
+    font-size: 2rem;
 }
 
 .sponsors_wrapper p {
     font-size: 1rem;
-    margin-top: 16rem;
+    margin-top: 20rem;
     text-align: center;
     font-weight: 100;
 }
@@ -105,7 +118,7 @@ ul {
     justify-content: center;
     gap: 3rem;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .bitwage {
@@ -172,12 +185,35 @@ ul {
     font-size: 3rem;
 }
 
+.temario {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.teoria-item {
+    padding: 20px;
+    background-color: #222831;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.teoria-item:hover {
+    box-shadow: -6px 8px rgba(0, 0, 0, 0.658);
+}
+
 h3 {
     font-size: 22px;
 }
 
 h4 {
     font-size: 18px;
+    line-height: 0.5;
+}
+
+p {
+    line-height: 1.3;
 }
 
 .desafios {
@@ -398,6 +434,22 @@ footer p i {
     .tecnologias i {
         font-size: 2rem;
     }
+
+
+    .temario {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+    }
+    
+    .teoria-item {
+        padding: 15px;
+        background-color: #222831;
+        border-radius: 3px;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     
     h3 {
         font-size: 1rem;
@@ -415,6 +467,10 @@ footer p i {
     flex-wrap: wrap;
     justify-content: flex-start;
 
+}
+
+.desafios {
+    margin-top: 20px;
 }
 
 .proyecto {
